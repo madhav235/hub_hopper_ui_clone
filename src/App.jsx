@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Section1 from './Pages/Section1'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar/>
+      <Section1/>
+    </div>
   )
 }
 
