@@ -4,7 +4,7 @@ import Section1 from './Pages/Section1'
 
 const App = () => {
   return (
-    <div>
+    <div className='w-screen'>
       <Navbar/>
       <Section1/>
     </div>
